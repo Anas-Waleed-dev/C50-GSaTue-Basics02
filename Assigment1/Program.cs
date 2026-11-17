@@ -92,11 +92,23 @@
             #region Question 9
             //Q09.  Given int pages = 464;, convert it into a string using ToString() and print its type using GetType()
             // to prove it's now a string.
-            int pages1 = 464;
-            string Result3 = pages1.ToString();
-            Console.WriteLine(Result3);
-            Console.WriteLine(Result3.GetType());
+            //int pages1 = 464;
+            //string Result3 = pages1.ToString();
+            //Console.WriteLine(Result3);
+            //Console.WriteLine(Result3.GetType());
             #endregion
+
+            #region Question 10
+            //Q10.  Declare int copies = 100;. Box it into an object variable, then unbox it back into a new int
+            //  variable, and print both.
+            int copies = 100;
+            object obj1 = copies;
+            //UnBoxing
+            int newCopies = (int)obj1;
+            Console.WriteLine(copies);
+            Console.WriteLine(newCopies);
+            #endregion
+
         }
     }
 }
