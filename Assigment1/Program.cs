@@ -101,12 +101,20 @@
             #region Question 10
             //Q10.  Declare int copies = 100;. Box it into an object variable, then unbox it back into a new int
             //  variable, and print both.
-            int copies = 100;
-            object obj1 = copies;
-            //UnBoxing
-            int newCopies = (int)obj1;
-            Console.WriteLine(copies);
-            Console.WriteLine(newCopies);
+            //int copies = 100;
+            //object obj1 = copies;
+            ////UnBoxing
+            //int newCopies = (int)obj1;
+            //Console.WriteLine(copies);
+            //Console.WriteLine(newCopies);
+            #endregion
+            #region Question 11
+            //Q11.  Declare an int? year = null;. Print whether it has a value, then assign it 2023 and print its value.
+
+            int? year = null;
+            Console.WriteLine(year.HasValue);
+            year = 2023;
+            Console.WriteLine(year.Value);
             #endregion
 
         }
