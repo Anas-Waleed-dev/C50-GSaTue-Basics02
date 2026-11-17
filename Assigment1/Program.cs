@@ -36,21 +36,27 @@
             #region Question 4
             //Write code that divides 10 by 0 inside a try block, catches the exception, prints "Cannot divide by
             //zero", and then prints "Done" in a finally block.
-            int num = 10;
-            int num2 = 0;
+            //int num = 10;
+            //int num2 = 0;
 
-            try
-            {
-                int result = num / num2;
-            }
-            catch (DivideByZeroException)
-            {
-                Console.WriteLine("Not Divide By Zero.");
-            }
-            finally
-            {
-                Console.WriteLine("Please enter your numbers Bigger than zero,Done");
-            }
+            //try
+            //{
+            //    int result = num / num2;
+            //}
+            //catch (DivideByZeroException)
+            //{
+            //    Console.WriteLine("Not Divide By Zero.");
+            //}
+            //finally
+            //{
+            //    Console.WriteLine("Please enter your numbers Bigger than zero,Done");
+            //}
+            #endregion
+            #region Question 5
+            //Q05.  Declare an int pages = 300; then store it in a double variable without using a cast.
+            int pages = 300;
+            double pages2 = pages;
+            Console.WriteLine(pages2);
             #endregion
 
         }
